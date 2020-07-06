@@ -21,11 +21,8 @@ public class Ex01java {
 		totalDia = (idade*365) + (mes*30) + dia;
 		
 		System.out.printf(nome);
-		System.out.printf(", sua idade em dias é ");
-		System.out.println(totalDia);
+		System.out.printf(nome,", sua idade em dias é %d",totalDia);
 		
-		
-
 	}
 
 }
